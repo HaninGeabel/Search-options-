@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <script src="index1.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>main Page</title>
+</head>
+<body>
+    <div id="information">
+        <form id="MainPage" onsubmit="makeVisible(); return false;">
+            <div id="choices">
+                <h1 >Search Choice</h1> 
+                <br>
+                <br>
+                <br>
+                
+                <table><tr><td>
+                    For Hire Vehicles</td> <td><input type=button name="For_Hire_Vehicles" value="For Hire Vehicles"  onclick="getFHV()" id="For_Hire_Vehicles"></td></tr>
+                    <tr><td>New York City Leading Causes of Death</td> <td><input type=button name="New_York_Causes_of_Death" value="New York City Leading Causes of Death"  onclick="getLCD()" id="New_York_Causes_of_Death" ></td></tr>
+                    <tr><td>Active Projects Under Construction</td> <td><input type=button name="Active_Projects_Under_Construction" value="Active Projects Under Construction"  onclick="getAPUC()" id="Active_Projects_Under_Construction" ></td></tr>
+                </table>
+
+            </div>
+            </form>
+            </div>
+            <span id="result"></span>
+    <table id="searchresults">
+
+    </table>
+</body>
+</html>
+
